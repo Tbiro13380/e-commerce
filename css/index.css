@@ -1,0 +1,79 @@
+/* Configs Gerais */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fredoka One", cursive;
+}
+
+html {
+  /* a cada um 1rem sera considerado 10px */
+  font-size: 62.5%;
+}
+
+/* Header  */
+header,
+.navbar {
+  font-size: 2.3rem;
+  text-shadow: 2px 2px 5px black;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 2rem 0rem;
+  color: white;
+  font-weight: 100;
+}
+
+#logo {
+  color: white;
+  font-size: 4rem;
+  margin-left: 2%;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
+
+.nav-link span {
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 14%;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+.main h1 {
+  font-size: 10rem;
+}
+
+.main p {
+  font-size: 5rem;
+}
+
+.btn-registre {
+  border: none;
+  font-size: 3rem;
+  padding: 0.3% 1% 0.3% 1%;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+
+.btn-registre a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
